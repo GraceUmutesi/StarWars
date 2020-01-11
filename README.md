@@ -7,8 +7,8 @@ The App has as functionality to demonstrate the characters in the Star Wars movi
 * in the bin folder, right click and open it in the terminal
 * type ./studio.sh
 ## Bugs
-*The Application is not complete. 
-\n*Implemenatation of the API manual( it was not displaying the data required in the app).
+*The Application is not complete.<br> 
+*Implemenatation of the API manual( it was not displaying the data required in the app).
 ## Technologies
 Android(Java)
 ## Screenshoots
@@ -16,9 +16,9 @@ Android(Java)
 <img src="pictures/home.png">
 <p>List of characters</p>
 <img src="pictures/list.png">
-## Author
-**Umutesi Grace**
-## License
+<h2> Author</h2>
+Umutesi Grace
+<h2> License </h2>
 MIT License
 
 Copyright (c) 2019 GraceUmutesi
