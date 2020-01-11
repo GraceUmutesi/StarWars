@@ -26,6 +26,8 @@ public class Character {
     private List<String>apprentices = new ArrayList<>();
     private List<String>formerAffiliations = new ArrayList<>();
 
+
+
     public Character(String id, String name, String height, String mass, String gender, String homeworld, String wiki, String image, String born, String bornLocation, String died, String diedLocation, String species, String hairColor, String eyeColor, String skinColor, String cybernetics, List<String> affiliations, List<String> masters, List<String> apprentices, List<String> formerAffiliations) {
         this.id = id;
         this.name = name;

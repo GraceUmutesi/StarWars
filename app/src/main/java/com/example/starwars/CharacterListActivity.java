@@ -17,13 +17,17 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class CharacterListActivity extends AppCompatActivity {
-
+    private ListView listView;
+    private String[] CharacterName= new String[]{"Luke Skywalker","C-3PO","R2-D2","Darth Vader","Leia Organa","Owen Lars","Beru Whitesun lars ","Biggs Darklighter","Obi-Wan Kenobi","Anakin Skywalker"
+            ,"Wilhuff Tarkin","Chewbacca","Han Solo","Greedo","Jabba Desilijic Tiure","Wedge Antilles","Jek Tono Porkins","Yoda","Palpatine","Boba Fett","Bossk","Captain Phasma"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_character_list);
 
-        ListView listView = (ListView) findViewById(R.id.list1);
+        listView = (ListView) findViewById(R.id.list1);
+        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,CharacterName);
+        listView.setAdapter(adapter);
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(Api.BASE_URL).addConverterFactory(GsonConverterFactory.create())
