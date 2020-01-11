@@ -12,9 +12,9 @@ The App has as functionality to demonstrate the characters in the Star Wars movi
 ## Technologies
 Android(Java)
 ## Screenshoots
-<p>Home Page</p>
+<h3>Home Page</h3>
 <img src="pictures/home.png">
-<p>List of characters</p>
+<h3>List of characters</h3>
 <img src="pictures/list.png">
 <h2> Author</h2>
 Umutesi Grace
